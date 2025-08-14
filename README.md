@@ -47,7 +47,11 @@ npm install
 npm run dev
 
 # Start backend (in another terminal)
+
 cd backend
+
 npm install
+
 npm run dev ( using nodemon )
+
 npm start ( using node )
