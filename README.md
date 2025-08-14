@@ -35,9 +35,11 @@ It supports secure video streaming, adaptive media quality, and real-time commun
 
 ## 🔑 Demo Login
 URL : https://threadify-omega.vercel.app/
+
 Use these credentials to explore the app without creating an account:
 
 **Username:** hitman
+
 **Password:** hitman
 
 ---
@@ -68,3 +70,13 @@ npm install
 npm run dev ( using nodemon )
 
 npm start ( using node )
+
+## 📦 Screenshots
+
+![Home Page](./frontend/src/assets/Screenshots/Home.png)
+
+![User Page](./frontend/src/assets/Screenshots/User.png)
+
+![Post Page](./frontend/src/assets/Screenshots/Post.png)
+
+![Chat Page](./frontend/src/assets/Screenshots/Chat.png)
