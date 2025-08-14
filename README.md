@@ -1,6 +1,6 @@
 # Threadify
 
-Threadify is a modern social platform clone built with **React.js**, **Chakra UI**, **Node.js**, **MongoDB**, and **JWT** authentication.  
+Threadify is a modern social platform built with **React.js**, **Chakra UI**, **Node.js**, **MongoDB**, and **JWT** authentication.  
 It supports secure video streaming, adaptive media quality, and real-time communication features.
 
 ---
