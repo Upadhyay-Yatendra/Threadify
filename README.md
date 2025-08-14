@@ -39,8 +39,11 @@ It supports secure video streaming, adaptive media quality, and real-time commun
 git clone https://github.com/Upadhyay-Yatendra/Threadify
 
 # Install dependencies
+
 cd threadify
+
 cd frontend 
+
 npm install
 
 # Start frontend
