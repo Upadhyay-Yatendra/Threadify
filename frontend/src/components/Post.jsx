@@ -156,16 +156,14 @@ const Post = ({ post, postedBy }) => {
               <Image src={post.img} w={"full"} />
             </Box>
           )}
-
-          {/* VideoPlayer will handle video playback for posts with videos */}
-          {post.videoUrl && (
+          {post.video && (
             <Box
               borderRadius={6}
               overflow={"hidden"}
               border={"1px solid"}
               borderColor={"gray.light"}
             >
-              <VideoPlayer videoUrl={post.video} />
+              <VideoPlayer videoUrl={`/api/posts/videos?url=${post.video}`} />
             </Box>
           )}
 

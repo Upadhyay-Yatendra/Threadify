@@ -16,6 +16,7 @@ export const SocketContextProvider = ({ children }) => {
   const user = useRecoilValue(userAtom);
 
   useEffect(() => {
+    // i did manauly set it to local server for logging
     const socket = io("https://threads-eu3f.onrender.com", {
       query: {
         userId: user?._id,

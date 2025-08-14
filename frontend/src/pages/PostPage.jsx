@@ -10,7 +10,7 @@ import { useRecoilState, useRecoilValue } from "recoil";
 import userAtom from "../atoms/userAtom";
 import { DeleteIcon } from "@chakra-ui/icons";
 import postsAtom from "../atoms/postsAtom";
-
+import VideoPlayer from "../hooks/useVideoPlayer";
 const PostPage = () => {
 	const { user, loading } = useGetUserProfile();
 	const [posts, setPosts] = useRecoilState(postsAtom);
@@ -67,7 +67,6 @@ const PostPage = () => {
 	}
 
 	if (!currentPost) return null;
-	console.log("currentPost", currentPost);
 
 	return (
 		<>
@@ -99,6 +98,16 @@ const PostPage = () => {
 					<Image src={currentPost.img} w={"full"} />
 				</Box>
 			)}
+			{currentPost.video && (
+            <Box
+              borderRadius={6}
+              overflow={"hidden"}
+              border={"1px solid"}
+              borderColor={"gray.light"}
+            >
+              <VideoPlayer videoUrl={currentPost.video} />
+            </Box>
+          )}
 
 			<Flex gap={3} my={3}>
 				<Actions post={currentPost} />

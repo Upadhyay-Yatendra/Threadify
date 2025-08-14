@@ -36,7 +36,6 @@ const VideoPlayer = ({ videoUrl }) => {
         ref={videoRef}
         src={videoUrl}
         controls={false}
-        muted
         style={{ width: "100%", height: "auto" }} // Style as needed
       />
     </div>
