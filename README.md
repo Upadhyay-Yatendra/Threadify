@@ -31,6 +31,16 @@ It supports secure video streaming, adaptive media quality, and real-time commun
 **Media:** WebRTC, WebSockets, Cloudinary  
 
 ---
+---
+
+## 🔑 Demo Login
+URL : https://threadify-omega.vercel.app/
+Use these credentials to explore the app without creating an account:
+
+**Username:** hitman
+**Password:** hitman
+
+---
 
 ## 📦 Installation
 
