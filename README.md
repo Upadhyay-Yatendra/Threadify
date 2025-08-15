@@ -71,12 +71,15 @@ npm run dev ( using nodemon )
 
 npm start ( using node )
 
-## 📦 Screenshots
+## 📦 Screenshots  
 
-![Home Page](./frontend/src/assets/Screenshots/Home.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Upadhyay-Yatendra/<repo-name>/main/frontend/src/assets/Screenshots/Home.png" width="500" />
+  <br/><br/>
+  <img src="https://raw.githubusercontent.com/Upadhyay-Yatendra/<repo-name>/main/frontend/src/assets/Screenshots/User.png" width="500" />
+  <br/><br/>
+  <img src="https://raw.githubusercontent.com/Upadhyay-Yatendra/<repo-name>/main/frontend/src/assets/Screenshots/Post.png" width="500" />
+  <br/><br/>
+  <img src="https://raw.githubusercontent.com/Upadhyay-Yatendra/<repo-name>/main/frontend/src/assets/Screenshots/Chat.png" width="500" />
+</p>
 
-![User Page](./frontend/src/assets/Screenshots/User.png)
-
-![Post Page](./frontend/src/assets/Screenshots/Post.png)
-
-![Chat Page](./frontend/src/assets/Screenshots/Chat.png)
